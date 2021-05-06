@@ -69,7 +69,7 @@ let g:haskell_backpack = 1                " to enable highlighting of backpack k
 "Opciones para programación en general
 "sintaxis
 syntax on
-colors blue
 "identar
 set autoindent cindent smartindent showmatch
 set sw=4
+
