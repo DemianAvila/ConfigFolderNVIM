@@ -22,6 +22,8 @@ call vundle#begin()
   Plugin 'iamcco/markdown-preview.vim'
   "Plugin para haskell
   Plugin 'neovimhaskell/haskell-vim.git' 
+  "emmet para autocompletado de html
+  Plugin 'mattn/emmet-vim'
   
 call vundle#end()
 
@@ -71,5 +73,5 @@ let g:haskell_backpack = 1                " to enable highlighting of backpack k
 syntax on
 "identar
 set autoindent cindent smartindent showmatch
-set sw=4
+set sw=3
 
